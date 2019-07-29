@@ -1,0 +1,12 @@
+table,
+caption {
+  text-align: center;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem 0
+}
