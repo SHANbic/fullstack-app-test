@@ -5,7 +5,6 @@ const hardware = require('./datas/deviceStock');
 
 app.get('/:hardware', (req, res) => {
   const found = hardware.find(item => item.type === req.params.hardware);
-
   res.send(found);
 });
 

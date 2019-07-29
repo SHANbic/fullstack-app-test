@@ -10,10 +10,9 @@ class Home extends React.Component {
       history: [],
       id: ''
     };
-    this.onHandleChange = this.onHandleChange.bind(this);
   }
 
-  onHandleChange(device) {
+  onHandleChange = (device) => {
     if (device.target.value !== 'Select a device') {
       fetch(`/${device.target.value}`)
         .then(res => res.json())
@@ -29,7 +28,7 @@ class Home extends React.Component {
     const { type, history, id } = this.state;
     return (
       <div className="container mt-2">
-        <h1>Stock for Video Games Department</h1>
+        <h1>Stock for Video Games Console Department</h1>
         <div className="row">
           <div className="col-md-3">
             <Select onHandleChange={this.onHandleChange} value={type} />

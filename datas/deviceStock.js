@@ -12,9 +12,9 @@ module.exports = [
     id: '0125886',
     type: 'Xbox One',
     history: [
-      { month: 'July', stock: 1599 },
-      { month: 'June', stock: 2053 },
-      { month: 'May', stock: 2141 }
+      { month: 'July', stock: 2199 },
+      { month: 'June', stock: 2353 },
+      { month: 'May', stock: 2541 }
     ]
   },
   {
