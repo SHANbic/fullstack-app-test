@@ -1,5 +1,7 @@
 # test-fullstack-app
-This app is about asking for a specific device and display its stock. Those datas will be shown in a chart where x-axis are a month-based timeline and y-axis is the amount of units in stock. A table will also be shown as a quick easy-readable summary. 
+This app is about asking for a specific device and display its stock. Those datas will be shown in a chart where x-axis is a month-based timeline and y-axis is the amount of units in stock. A table will also be shown as a quick easy-readable summary. 
+
+For a live demo, follow this [link](https://still-river-24824.herokuapp.com/)
 
 To install this app on your local machine, open up your terminal and follow these steps:
 ```terminal
